@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files  = "LicensesKit/LicensesViewController.swift", "LicensesKit/NoticesHtmlBuilder.swift", "LicensesKit/Model", "LicensesKit/Model/Licenses"
   s.resources = ["LicensesKit/Supporting Files/Licenses/*.txt"]
   s.framework  = "UIKit", "WebKit"
-  s.dependency 'StringBuilder', '1.1.2'
+  s.dependency 'StringBuilder', '1.1.3'
   s.requires_arc = true
 
 end
